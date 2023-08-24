@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de página HTML</title>
+    <meta name="author" content="Danielly">
+    <meta name="description" content="Atividade 2">
+    <meta name="keywords" content="sites, web, tags, html">
+</head>
+
+<body background="Background-2.jpg">
+    <header>
+        <font face="times new roman" color="#900C3F">
+        <h1 id="Titulo 1">
+            <i>Design</i> Responsivo
+        </h1>
+        </font>
+        <br>
+    </header>
+
+        <section>
+        <font face="times new roman" color="#900C3F">
+        <h2><b>ÍNDICE</b></h2>
+        </font>
+        <nav>
+            <ol>
+                <li><a href=#intro>Introdução</a></li>
+                <li><a href=#layout><i>Layout</i> Fluído</a></li>
+                <li><a href=#media><i>Media Queries</i></a></li>
+                <li><a href=#mobile><i>Mobile First</i></a></li>
+                <li><a href=#conclusao>Conclusão</a></li>
+                <lI><a href=#referencias>Referências Bubliográficas</a></lI>
+            </ol>
+        </nav>
+        </section>
+
+        <section>
+        <font face="times new roman" color="#900C3F">
+            <h2 id="intro"><b>1. INTRODUÇÃO</b></h2>
+        </font>
+        <p align = "justify">
+                &emsp;No decorrer da história, assim como a natural evolução humana, os dispositivos eletrônicos têm 
+            sofrido constante evolução, ao passo que usuários conseguem acessar conteúdo na web a partir de 
+            diferentes dispositivos móveis como celulares e tablets e não somente a partir de desktops e 
+            laptops (FRANÇA, 2015). Dessa forma, como garantir que a experiência do usuário seja a mesma 
+            independentemente do dispositivo acessado levando em conta os quatro pilares do <i>User Experience</i>:
+             agradável, útil, usável e equitativo?
+        </p>
+        <p align = "justify">
+             &emsp;Foram a partir desses desafios que técnicas foram desenvolvidas e aprimoradas a fim de adaptar 
+            páginas web para dispositivos móveis. À utilização dessas técnicas dá-se o nome de Design Responsivo, 
+            cujo objetivo é adaptar o layout de páginas web a qualquer dispositi-vo, de qualquer resolução de tela,
+             a fim de garantir a boa experiência do usuário (SILVA, 2014).
+        </p>
+        <p align = "justify">
+             &emsp;As técnicas utilizadas para a garantia e implementação do design responsivo são: <i>media queries</i>, 
+            <i>layouts</i> fluídos e imagens e recursos flexíveis. O <i>layout</i> fluído leva em conta o uso de 
+            porcentagem (unidade relativa) em vez de pixel (unidade absoluta). Já o uso de media queries torna 
+            possível a aplicação de diferentes estilos CSS a depender do dispositivo. Por fim, o uso de imagens e 
+            recursos flexíveis faz com que o redimensionamento automático seja possível tendo como base o 
+            dispositivo (KIM, 2013).
+        </p>
+        <p align = "justify">
+            &emsp;Ao desenvolvimento do design responsivo são incluídos a adaptabilidade do <i>layout</i> da página à resolução 
+            do dispositivo, o redimensionamento automático de imagens a fim de adequá-las ao tamanho da tela, a 
+            priorização de exibir imagens e recursos importantes e esconder os menos importantes em dispositivos 
+            pequenos, a adaptabilidade do tamanho de bo-tões e links e, por fim, o uso de localização geográfica e 
+            mudança da orientação do conteúdo (ALMEIDA; MONTEIRO, 2017).           
+        </p>
+        </section>
+
+        <section>
+        <font face="times new roman" color="#900C3F">
+        <h2 id="layout"><b>2. <i>LAYOUT</i> FLUÍDO</b></h2>
+        </font>
+        <p align = "justify">
+            &emsp;Na técnica de layout fluído, não são utilizadas medidas fixas como pixels ou outras 
+            unidades absolutas como centímetros, milímetros etc, mas sim outras medidas flexíveis como 
+            porcentagem e EM e REM.
+        </p>
+        </section>
+
+        <section>
+        <font face="times new roman" color="#900C3F">
+        <h3><b>&emsp;2.1. Porcentagem</b></h3>
+        </font>
+        <p align = "justify">
+            &emsp;&emsp;Na utilização do <i>layout</i> fluído, os valores em porcentagem são encontrados a partir da 
+            divisão do valor do elemento pelo valor do seu “pai”. Esse resultado será o valor relativo.
+        </p>
+        </section>
+
+        <section>
+        <font face="times new roman" color="#900C3F">
+        <h3><b>&emsp;2.2. EM e REM</b></h3>
+        </font>
+        <p align = "justify">
+            &emsp;&emsp;As medidas EM e REM são geralmente utilizadas para definir os valores do <i>fontsize</i>, 
+            <i>margin</i> e <i>padding</i>, podendo ser utilizadas também para definição de largura e 
+            altura de outros &emsp;componentes. A diferença entre as duas é a medida. Mas também podem ser 
+            utilizadas para definir largura e altura de outros componentes.
+        </p>
+        </section>
+
+        <section>
+        <font face="times new roman" color="#900C3F">
+        <h2 id="media"><b>3. <i>MEDIA QUERIES</i></b></h2>
+        </font>
+        <p align = "justify">
+                &emsp;A utilização de design fluído torna possível a adaptabilidade da página web em diferentes 
+                navegadores e dispositivos. No entanto, existe um ponto, denominado <i>breakpoint</i>, no qual o 
+                redimensionamento começa a não ficar otimizado, visto que quebras maiores devem ser utilizadas. 
+                Nesse ponto, as media queries são necessárias: a partir delas, é possível ocultar e reposicionar 
+                elementos como imagens, botões e outros recursos, conforme a resolução atu-al do dispositivo. 
+                As media queries levam em conta a resolução da tela.
+        </p>
+        </section>
+
+        <section>
+            <font face="times new roman" color="#900C3F">
+            <h2 id="mobile"><b>4. </b><i>MOBILE FIRST</i></h2>
+            </font>
+            <p align = "justify">
+                    &emsp;O conceito de <i>Mobile First</i> foi criado por Luke Wroblewski e tem o objetivo de planejar o 
+                    projeto de web responsivo. O conceito se baseia em projetar primeiramente layouts para dispositivos menores e 
+                    progredir para os dispositivos maiores. Iniciar a projeção do de-sign tendo como base as restrições do mobile é 
+                    mais favorável do que retrabalhar o projeto limitando as definições após o desenvolvimento já ter sido projetado 
+                    para o desktop (PROST, 2013). 
+            
+            <figure align = "center"> <!--com a tag figure é possível colocar uma legenda para a imagem-->
+                <img src = "data:image/png;base64,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"
+                        alt = "Mobile first e design responsivo"
+                        title = "Imagem"
+                        width = "300" height = "300"/>
+            </figure>
+                <figcaption align = "center">
+                    <i>Design</i> responsivo e <i>mobile first</i>: demonstração comparando dispositivos
+                </figcaption>
+            </p>
+        </section>
+
+        <section>
+            <font face="times new roman" color="#900C3F">
+            <h2 id="conclusao"><b>5. CONCLUSÃO</b></h2>
+            </font>
+            <p align = "justify">
+                    &emsp;Tomando como base as informações apresentadas, a utilização do <i>design</i> responsivo, torna-se totalmente útil e 
+                    necessário quando é colocado em pauta a experiência do usuário, ainda mais quando é de conhecimento que o uso de 
+                    dispositivos móveis é realizado por inúmeras pessoas. Dessa forma, as técnicas para o desenvolvimento de <i>layouts</i> 
+                    com <i>design</i> responsivo são de extrema importância para garantir a boa adaptabilidade dos recursos de páginas da web em 
+                    diferentes formados e tamanhos de tela. Ainda, o conceito de <i>mobile first</i> deve ser empregado a fim de evitar possíveis 
+                    retrabalhos sobre o desenvolvimento.
+            </p>
+        </section>
+
+        <section>
+            <font face="times new roman" color="#900C3F">
+            <h2 id="referencias"><b>6. REFERÊNCIAS BIBLIOGRÁFICAS</b></h2>
+            </font>
+            <p align = "justify">
+                &emsp;ALMEIDA, F.; MONTEIRO, J. <b>The role of responsive design in web development.</b> We-bology, Volume 14, Number 2, 
+                December, 2017. Disponível em: 
+                <a href = "https://www.researchgate.net/profile/Fernando-Almeida-10/publication/324131848_The_role_of_responsive_design_in_web_development/links/5aca790ea6fdcc8bfc84eea8/The-role-of-responsive-design-in-web-development.pdf">
+                Research Gate
+                </a>
+            </p>
+            <p align = "justify">
+                &emsp;FRANÇA, S. dos S. <b>Web design responsivo: caminhos para um site adaptá-vel.</b> Interfaces Científicas - Exatas e 
+                Tecnológicas, 1(2), 75–84. 2015. Disponível em:
+                <a href = "https://periodicos.grupotiradentes.com/exatas/article/view/2220">
+                    Periodicos
+                </a>
+            </p>
+            <p align = "justify">
+                &emsp;KIM, B. <b>Chapter 4: Responsive web design, discoverability, and mobile challenge.</b> ALA TECHSource, 6, 2013. 
+                Disponível em :
+                <a href = "https://www.journals.ala.org/index.php/ltr/article/view/4507">
+                Journals
+                </a>
+            </p>
+            <p align = "justify">
+                &emsp;PROSTT, M. E. <b>Interface web utilizando design responsivo: um estudo de caso aplicado a smatphones, tablets, 
+                computadores e televisores.</b> Curitiba – PR. 2013. Disponível em: 
+                <a href = "http://repositorio.utfpr.edu.br/jspui/handle/1/19887">
+                Repositório UTFPR
+                </a>
+            </p>
+            <p align = "justify">
+                &emsp;SILVA, A. de A. P. da. <b>Design responsivo: técnicas, frameworks e ferramentas.</b> Rio de Janeiro – RJ. 2014. 
+                Disponível em:
+                <a href = "https://bsi.uniriotec.br/wp-content/uploads/sites/31/2020/05/201412Almeida.pdf">
+                UNIRIOTEC
+                </a>
+            </p align = "justify">
+                    
+        </section>
+
+        <footer>
+                <a href = "#Titulo 1">
+                    Início
+                </a>
+        </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+h1 {
+    font-style: bold 50% Arial, Helvetica, sans-serif;
+}
+
+.cor {
+    width: 500px;
+	height: 500px;
+	line-height: 500px;
+	text-align: center;
+}
+
+@media only screen and (max-width: 420px) {
+    .cor {
+        background-color: grey;
+    }
+    h1::after {
+        content: "Cinza";
+        color: black;
+    }
+}
+
+@media only screen and (min-width: 421px) and (max-width: 768px) {
+    .cor {
+        background-color: orange;
+    }
+    h1::after {
+        content: "Laranja";
+        color: black;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .cor {
+        background-color: pink;
+    }
+    h1::before {
+        content: "Rosa";
+        color: black;
+    }
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1080px) {
+    .cor {
+        background-color: red;
+    }
+    h1::before {
+        content: "Vermelho";
+        color: black;
+    }
+}
+
+@media only screen and (min-width: 1081px) and (max-width: 1366px) {
+    .cor {
+        background-color: blue;
+        
+    }
+    h1::after {
+        content: "Azul";
+        color: black;
+    }
+}
+
+@media only screen and (min-width: 1367px) {
+    .cor {
+        background-color: yellow;
+    }
+    h1::after {
+        content: "Amarelo";
+        color: black;
+    }
+}

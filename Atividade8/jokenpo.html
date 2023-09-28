@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pedra, papel e tesoura</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jokenpo.js"></script>
+</head>
+
+<body>
+    <div class="conteudo">
+        <div class="topo">
+            <h1>Jogo pedra, papel e tesoura</h1>
+        </div>
+
+        <div class="meio">
+            <div class="container">
+                <div class="box a">
+                    <img src="pedra.jpg" class="imgjogo" alt="Pedra">
+                    <div class="botao">
+                        <input type="button" value="Pedra" onclick="selecionarOpcao('pedra')">
+                    </div>
+                    
+                </div>
+                <div class="box a">
+                    <img src="papel.png" class="imgjogo" alt="Pedra">
+                    <div class="botao">
+                        <input type="button" value="Papel" onclick="selecionarOpcao('papel')">
+                    </div>
+
+                </div>
+                <div class="box a">
+                    <div class="botao">
+                        <input type="button" value="Tesoura" onclick="selecionarOpcao('tesoura')">
+                    </div>
+                    <img src="tesoura.jpg" class="imgjogo" alt="Pedra">
+                </div>
+            </div>
+        </div>
+        
+        <p class="result"></p>
+    </div>
+</body>
+
+<footer class='rodape'>
+    <p>Danielly Rocha - 27/09/2023</p>
+</footer>
+
+</html>

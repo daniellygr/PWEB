@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -38,4 +39,46 @@
         </div>
     </section>   
 </body>
+=======
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
+    <title>Atividade 9</title>
+</head>
+<body>
+    <header>
+        <h1>Questionário</h1>
+    </header>
+
+    <main class = main>
+        <h2>Colabore conosco respondendo nosso questionário!</h2>        
+        <p>Idade  <input id="idade" type="number" min="0"></p>
+        <p>Sexo   
+            <input type="radio" name="sexo" id="feminino">Feminino  
+            <input type="radio" name="sexo" id="masculino">Masculino
+        </p>
+        <p>
+            Indique a sua avaliação sobre o filme:<br><br>
+            <input type="radio" name="pessimo" id="pessimo">Péssimo
+            <input type="radio" name="opiniao" id="regular">Regular
+            <input type="radio" name="opiniao" id="bom">Bom
+            <input type="radio" name="opiniao" id="otimo">Ótimo<br><br>
+            <button class="botao" onclick="addDados()">Adicionar</button>
+            <button class="botao" onclick="finalizar()">Resultados</button>
+            <button class="botao" onclick="limpar()">Limpar</button>          
+        </p>
+        <p id="contador">Pessoas entrevistadas 0/45</p>
+    </main>
+    <section>
+        <div class="result">
+            <h2 id="h2"></h2>
+            <p id="p"></p>
+        </div>
+    </section>   
+</body>
+>>>>>>> 5d707cf11911a204993e6d3711fe21701f6bd47e
 </html>

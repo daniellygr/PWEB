@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 15</title>
+    <script src="script.js"></script>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="conteudo">    
+        <form name="formulario" onsubmit="return validarFormulario(this);">
+            <p id="titulo">Fórmulario para prenchimento</p>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome">
+            <br>
+            <br>
+
+            <label for="email">E-mail:</label>
+            <input type="text" name="email" id="email" cols="45">
+            <br>
+            <br>
+
+            <label for="comentario">Comentário:</label>
+            <textarea name="comentario" id="comentario" cols="45"></textarea>
+            <br>
+            <br>
+
+            <label>Pesquisa: "Primeira vez nesta página?"</label>
+            <br>
+            <input type="radio" name="pesquisa" value="sim" id="sim">
+            <label for="pesquisa1">Sim</label>
+            <input type="radio" name="pesquisa" value="nao" id="nao">
+            <label for="pesquisa2">Não</label>
+            <br>
+            <br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>

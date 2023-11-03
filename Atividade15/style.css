@@ -1,0 +1,19 @@
+body {
+    background-color: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.conteudo {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#titulo {
+    font-size: 2em;
+}
+
+input[type=text] {
+    width: 385px;
+}

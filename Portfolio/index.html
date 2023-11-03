@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Danielly</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="menu">
+            <button id="sobreMim" type="button" onclick="sobre()">Sobre</button>
+            <button id="minhasFormacoes" type="button" onclick="formacao()">Formação</button>
+            <button id="minhasExperiencias" type="button" onclick="experiencia()">Experiência</button>
+            <button id="minhasHabilidades" type="button" onclick="cursos()">Cursos</button>
+            <button id="meusContatos" type="button" onclick="contato()">Contato</button>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="flex-container">
+            <article class="flex-item" id="item">
+                <img id="imagemConteudo" src="imagem/sobre.jpg" rel="Oi!">
+            </article>
+            <article class="flex-item" id="conteudo">
+                <div class="conteudo-box a" id="texto">
+                    <p id="principal">Olá. Sou a Danielly!</p>
+                    <p id="secundario">Tenho 28 anos e moro em Sorocaba - SP.</p>
+                    <p id="final">Gosto muito de aprender coisas novas e por isso estou fazendo outra faculdade!
+                        Sou uma futura programadora.
+                    </p>
+                </div>
+                <div class="conteudo-box b">
+                    <img id="imagemBox" src="imagem/programadora.png" rel="Programadora ícone">
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        © 2023 Designed by Danielly Rocha
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
